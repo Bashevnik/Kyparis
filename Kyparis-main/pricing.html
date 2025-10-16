@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ціни на послуги - КИПАРИС</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="header">
+        <nav class="nav">
+               <a href="index.html" class="logo">🌲 КИПАРИС</a>
+            <div class="nav-links">
+                <a href="index.html">Головна</a>
+                <a href="#services">Послуги</a>
+                <a href="portfolio.html">Портфоліо</a>
+                <a href="pricing.html">Ціни</a>
+                <a href="about.html">Про нас</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+            <a href="tel:+380501234567" class="btn-contact">+380 (50) 123-45-67</a>
+            <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+         <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-logo">🌲 КИПАРИС</div>
+            <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&times;</button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html">Головна</a>
+            <a href="#services">Послуги</a>
+            <a href="portfolio.html">Портфоліо</a>
+            <a href="pricing.html">Ціни</a>
+            <a href="about.html">Про нас</a>
+            <a href="contacts.html">Контакти</a>
+        </div>
+        <a href="tel:+380501234567" class="mobile-menu-contact">+380 (50) 123-45-67</a>
+    </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <span class="section-badge">Прайс-лист</span>
+            <h1>Ціни на послуги</h1>
+            <p>Прозорі ціни на найпопулярніші садові послуги. Точна вартість розраховується після огляду ділянки</p>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="pricing-intro">
+            <h2>Популярні послуги</h2>
+            <p>Базові ціни на найбільш затребувані види робіт. Остаточна вартість залежить від площі, складності та обсягу робіт.</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Догляд за газоном</h3>
+                    <div class="pricing-icon">🌱</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Стрижка газону</span>
+                        <span class="price">від 50 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Аерація газону</span>
+                        <span class="price">від 30 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Підживлення газону</span>
+                        <span class="price">від 40 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Боротьба з бур'янами</span>
+                        <span class="price">від 35 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Комплексний догляд (місяць)</span>
+                        <span class="price">від 3000 грн</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-outline">Замовити</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Популярне</div>
+                <div class="pricing-header">
+                    <h3>Обрізка та формування</h3>
+                    <div class="pricing-icon">✂️</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Обрізка плодових дерев</span>
+                        <span class="price">від 500 грн/дерево</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Обрізка декоративних дерев</span>
+                        <span class="price">від 400 грн/дерево</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Стрижка чагарників</span>
+                        <span class="price">від 200 грн/шт</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Формування живоплоту</span>
+                        <span class="price">від 80 грн/м.п.</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Художня стрижка (топіарі)</span>
+                        <span class="price">від 1500 грн</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-primary">Замовити</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Посадка рослин</h3>
+                    <div class="pricing-icon">🌳</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Посадка дерев (до 2м)</span>
+                        <span class="price">від 800 грн/шт</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Посадка дерев (2-4м)</span>
+                        <span class="price">від 1500 грн/шт</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Посадка чагарників</span>
+                        <span class="price">від 300 грн/шт</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Створення квітників</span>
+                        <span class="price">від 200 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Посів газону</span>
+                        <span class="price">від 100 грн/м²</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-outline">Замовити</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Системи поливу</h3>
+                    <div class="pricing-icon">💧</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Проєктування системи</span>
+                        <span class="price">від 5000 грн</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Автоматичний полив</span>
+                        <span class="price">від 300 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Крапельний полив</span>
+                        <span class="price">від 150 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Обслуговування системи</span>
+                        <span class="price">від 2000 грн</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Консервація на зиму</span>
+                        <span class="price">від 1500 грн</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-outline">Замовити</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Ландшафтний дизайн</h3>
+                    <div class="pricing-icon">🎨</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Виїзд дизайнера</span>
+                        <span class="price">Безкоштовно</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Ескізний проєкт</span>
+                        <span class="price">від 10000 грн</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Робочий проєкт</span>
+                        <span class="price">від 25000 грн</span>
+                    </div>
+                    <div class="price-item">
+                        <span>3D візуалізація</span>
+                        <span class="price">від 5000 грн</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Авторський нагляд</span>
+                        <span class="price">10% від вартості</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-outline">Замовити</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Сезонні роботи</h3>
+                    <div class="pricing-icon">🍂</div>
+                </div>
+                <div class="pricing-body">
+                    <div class="price-item">
+                        <span>Весняне прибирання</span>
+                        <span class="price">від 50 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Підготовка до зими</span>
+                        <span class="price">від 60 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Прибирання листя</span>
+                        <span class="price">від 30 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Мульчування ґрунту</span>
+                        <span class="price">від 40 грн/м²</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Захист рослин на зиму</span>
+                        <span class="price">від 200 грн/шт</span>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-outline">Замовити</a>
+            </div>
+        </div>
+
+        <div class="pricing-note">
+            <h3>Важлива інформація</h3>
+            <ul>
+                <li>Всі ціни вказані орієнтовно і можуть змінюватись залежно від обсягу та складності робіт</li>
+                <li>Виїзд фахівця для оцінки робіт - безкоштовно в межах Києва та області</li>
+                <li>Надаємо знижки при замовленні комплексу послуг або довгостроковому обслуговуванні</li>
+                <li>Гарантія на всі види робіт та використані матеріали</li>
+                <li>Можлива оплата готівкою або безготівковим розрахунком</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Потрібна точна калькуляція?</h2>
+            <p>Залиште заявку, і наш фахівець безкоштовно приїде для оцінки робіт та складання кошторису</p>
+            <a href="index.html#contact" class="btn-primary">Викликати фахівця</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">🌲 КИПАРИС</div>
+                <p>Сімейний сад КИПАРИС - професійні садові послуги у Києві та Київській області.</p>
+                <div style="margin-top: 1rem;">
+                    <a href="https://www.instagram.com/ABRYKOSS10" target="_blank" style="color: var(--accent-light); text-decoration: none; font-weight: 600;">
+                        📷 Instagram: @ABRYKOSS10
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Навігація</h4>
+                <a href="index.html">Головна</a>
+                <a href="index.html#services">Послуги</a>
+                <a href="portfolio.html">Портфоліо</a>
+                <a href="pricing.html">Ціни</a>
+                <a href="about.html">Про нас</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Послуги</h4>
+                <a href="services/avtomatychnyy-poliv.html">Автоматичний полив</a>
+                <a href="services/krapelnyy-poliv.html">Крапельний полив</a>
+                <a href="services/kladka-rulonnogo-gazonu.html">Кладка рулонного газону</a>
+                <a href="services/posadka-roslyn.html">Посадка рослин</a>
+                <a href="services/kosinnya-gazoniv.html">Косіння газонів</a>
+                <a href="services/bonsai.html">Бонсай</a>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Контакти</h4>
+                <p>+380 (50) 123-45-67</p>
+                <p>info@kiparis.ua</p>
+                <p>Київ, Україна</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 КИПАРИС. Всі права захищені.</p>
+        </div>
+    </footer>
+        <script src="script.js"></script>
+</body>
+</html>
