@@ -1315,9 +1315,10 @@ body {
   }
 
   .slider-caption {
-    font-size: 0.95rem;
-            padding: 3.5rem;
-  }
+        font-size: 1.2rem;
+        padding: 3.5rem;
+        line-height: 26px;
+    }
 }
 
 @media (max-width: 768px) {
