@@ -40,7 +40,7 @@ body {
 }
 
 /* Header */
-.header {
+.header { 
   background-color: var(--white);
   padding: 1.25rem 3rem;
   box-shadow: var(--shadow-sm);
