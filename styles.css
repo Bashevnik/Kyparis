@@ -619,6 +619,7 @@ body {
 
 .contact-form input,
 .contact-form textarea {
+      max-width: 100%;
   padding: 1rem 1.25rem;
   border: 2px solid var(--border);
   border-radius: 8px;
