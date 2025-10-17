@@ -10,10 +10,10 @@ a.logo {
 }
 :root {
   --primary: #618019;
-  --primary-light: #ffffff;
+  --primary-light:#7a9e3e;;
   --primary-dark: #3e5f29;
   --accent: #4c7767;
-  --accent-light: #7a789e;
+  --accent-light: #ffffff;
   --secondary: #388399;
   --sand: #f5f1e8;
   --cream: #faf8f3;
