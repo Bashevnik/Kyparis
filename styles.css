@@ -1385,7 +1385,20 @@ body {
   }
 }
 
+@media (max-width: 520px) {
+  .contact-form{
+        max-width: 500px !important;
+  }
+}
+@media (max-width: 500px) {
+  .contact-form{
+        max-width: 480px !important;
+  }
+}
 @media (max-width: 480px) {
+  .contact-form{
+        max-width: 460px !important;
+  }
   .hero-title {
     font-size: 1.85rem;
   }
@@ -1406,10 +1419,10 @@ body {
 
   .page-hero h1 {
     font-size: 2rem;
-            line-height: 35px;
   }
 
   .contact-form {
     padding: 1.5rem;
   }
 }
+
