@@ -1398,6 +1398,7 @@ body {
 @media (max-width: 480px) {
   .contact-form{
         max-width: 460px !important;
+        padding: 1.5rem;
   }
   .hero-title {
     font-size: 1.85rem;
@@ -1421,8 +1422,5 @@ body {
     font-size: 2rem;
   }
 
-  .contact-form {
-    padding: 1.5rem;
-  }
 }
 
