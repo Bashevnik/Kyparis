@@ -607,6 +607,7 @@ body {
   font-size: 0.95rem;
 }
 
+/* Контейнер формы */
 .contact-form {
   background-color: var(--white);
   padding: 2.5rem;
@@ -615,11 +616,16 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+
+  width: 100%;          /* ✅ делает форму гибкой */
+  max-width: 600px;     /* ограничение для десктопа */
+  margin: 0 auto;       /* центрирует */
 }
 
+/* Поля ввода */
 .contact-form input,
 .contact-form textarea {
-      max-width: 100%;
+  width: 100%;          /* ✅ чтобы занимали всю ширину формы */
   padding: 1rem 1.25rem;
   border: 2px solid var(--border);
   border-radius: 8px;
@@ -629,6 +635,7 @@ body {
   background-color: var(--cream);
 }
 
+/* Фокус */
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
@@ -636,11 +643,13 @@ body {
   background-color: var(--white);
 }
 
+/* Текстовое поле */
 .contact-form textarea {
   resize: vertical;
   min-height: 120px;
 }
 
+/* Кнопка */
 .btn-submit {
   background-color: var(--primary);
   color: var(--white);
@@ -661,11 +670,41 @@ body {
   box-shadow: var(--shadow-lg);
 }
 
+/* Подпись под формой */
 .form-note {
   font-size: 0.8rem;
   color: var(--text-gray);
   text-align: center;
   margin-top: 0.5rem;
+}
+
+/* ✅ Адаптив под мобильные */
+@media (max-width: 520px) {
+  .contact-form {
+    padding: 1.5rem;
+    max-width: 100%; /* форма не шире экрана */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+
+  .btn-submit {
+    width: 100%;  /* кнопка тоже тянется */
+    padding: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
 }
 
 /* Footer */
