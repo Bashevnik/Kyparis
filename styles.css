@@ -13,7 +13,7 @@ a.logo {
   --primary-light:#7a9e3e;;
   --primary-dark: #3e5f29;
   --accent: #4c7767;
-  --accent-light: #ffffff;
+  --accent-light: linear-gradient(135deg, var(--sand) 0%, var(--cream) 100%);;
   --secondary: #388399;
   --sand: #f5f1e8;
   --cream: #faf8f3;
